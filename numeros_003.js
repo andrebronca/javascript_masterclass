@@ -1,0 +1,15 @@
+new Number(10);
+new Number(9.9);
+new Number(0xff);
+new Number(0b10);
+new Number(0o10);
+let n = new Number(10);
+let a = (123.4).toExponential(10);
+let b = (1234.5).toExponential(10);
+let c = (123.4).toFixed(2);
+let d = (123.4).toPrecision(10);
+console.log(n);
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
